@@ -5,3 +5,4 @@
 - `2-bring_me_home`: cambia al directorio home del usuario con `cd ~`.
 - `3-listfiles`: muestra el contenido del directorio actual en formato largo con `ls -l`.
 - `4-listmorefiles`: muestra los archivos, incluidos los ocultos, en formato largo con `ls -la`.
+- `5-listfilesdigitonly`: muestra los archivos, incluidos los ocultos, en formato largo con IDs numéricos mediante `ls -lan`.
