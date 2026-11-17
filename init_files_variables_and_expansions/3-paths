@@ -1,0 +1,2 @@
+#!/bin/bash
+printf '%s\n' "$PATH" | awk -F: '{ for (i = 1; i <= NF; i++) if ($i != "") count++ } END { print count + 0 }'
